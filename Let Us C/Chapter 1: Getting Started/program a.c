@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 main( )
 {
             float basic_sal,dear_al,house_rent_al,gross_sal;
