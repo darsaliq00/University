@@ -1,0 +1,30 @@
+variable, arrays and matrices 
+array
+a=[1 2 3 4 5]
+calculate the length of array
+b = length(a)
+find the transpose of array a
+c =a'
+%array indexing
+d = a(3)
+%replace the value at some index
+a(3) = 10
+%multiply each element by 3 
+e = a.*3
+%devide elements of array by any no.
+f = e/2
+a = (1:10)
+b= (1:5:50)
+matrix
+2d array or matrix decleration 
+x = [1,2,3;4,5,6;7,8,9]
+%get dimensions of matrix
+[rows,cols]=size(x)
+p= x(3,2)
+%get the transpose of the matrix
+y=x'
+z=y(:)
+q= reshape(y, [3,3])
+x=q'
+r = max(x)
+s = max(max(x))
