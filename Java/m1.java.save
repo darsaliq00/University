@@ -1,0 +1,13 @@
+class functions{
+static int func1(int x) {
+    return 5 + x;
+  }
+static int func2(int x, int y) {
+    return x + y;
+  }
+
+  public static void main(String[] args) {
+   // System.out.print(func1(3));
+    //System.out.print(func2(3,3));
+ System.out.print("I AM UZMA, ALSO CALLED AS BLACK MAGIC"); }
+}
